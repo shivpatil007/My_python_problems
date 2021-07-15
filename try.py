@@ -15,8 +15,6 @@ def is_prime(n):
     return True
 
 
-a = [5, 66, 5, 5, 5, 2, 3, 4]
-print(a)
-b = a.reverse()
-print(b)
-print(a)
+s = 'sadasdasdsavsvdfgb'
+t = f"$#{'#'.join(list(s))}#*"
+print(t)

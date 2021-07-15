@@ -18,7 +18,7 @@ while(i < len(a)):
         break
 
 
-if i == len(a)-2 or i == len(a)-3:
+if i in [len(a) - 2, len(a) - 3]:
     print(True)
 else:
     print(False)
