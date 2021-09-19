@@ -17,11 +17,8 @@ def is_prime(n):
 
 def fun(i, j, target):
 
-    z = []
     ans = []
-    for x in range(i, j):
-        if is_prime(x) == True:
-            z.append(x)
+    z = [x for x in range(i, j) if is_prime(x) == True]
     for i, j in enumerate(z):
         for k in z[i+1:]:
             if k-j == target:
