@@ -5,7 +5,7 @@ def is_prime(n):
 
     i = 2
 
-    while i*i <= n:
+    while i ** 2 <= n:
 
         if n % i == 0:
 
@@ -15,6 +15,4 @@ def is_prime(n):
     return True
 
 
-s = 'sadasdasdsavsvdfgb'
-t = f"$#{'#'.join(list(s))}#*"
-print(t)
+print(is_prime(56))
