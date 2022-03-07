@@ -14,4 +14,3 @@ def myfun(s, answer):
 
 myfun(s, '')
 print(res)
-print(set(res))
