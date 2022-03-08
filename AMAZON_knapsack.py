@@ -9,7 +9,7 @@ W = 50
 n = len(val)
 
 # We initialize the matrix with -1 at first.
-t = [[-1 for _ in range(W + 1)] for i in range(n + 1)]
+t = [[-1 for _ in range(W + 1)] for _ in range(n + 1)]
 
 
 def knapsack(wt, val, W, n):
